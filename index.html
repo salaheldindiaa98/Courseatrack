@@ -45,12 +45,12 @@ const DEFAULT_ASSESS=[['q1','Quiz 1',5],['q2','Quiz 2',5],['q3','Quiz 3',5],['p1
 const CALC_PRESETS=[['highest','Highest score'],['highest_half','Highest score ÷ 2'],['avg_all','Average of all'],['avg_high2','Average of highest two'],['sum_high2','Sum of highest two'],['sum_all','Sum of all']];
 const PERM_LABELS={attendance:'Record attendance',roster:'Upload SIS rosters',lockAttendance:'Lock attendance weeks',exports:'Export course data',manageLabs:'Manage labs'};
 const EMBEDDED_FIREBASE_CONFIG={
-  apiKey:"PASTE_API_KEY",
-  authDomain:"PASTE_PROJECT_ID.firebaseapp.com",
-  projectId:"PASTE_PROJECT_ID",
-  storageBucket:"PASTE_PROJECT_ID.firebasestorage.app",
-  messagingSenderId:"PASTE_MESSAGING_SENDER_ID",
-  appId:"PASTE_APP_ID"
+  apiKey: "AIzaSyCbtpuWLIDD1L5A4XUgabJMmRcUL5lEwT8",
+authDomain: "coursetrack-university.firebaseapp.com",
+projectId: "coursetrack-university",
+storageBucket: "coursetrack-university.firebasestorage.app",
+messagingSenderId: "191029964760",
+appId: "1:191029964760:web:040ebd7834a03eb3198cad"
 };
 const $ts=()=>firebase.firestore.FieldValue.serverTimestamp();
 let db=null,auth=null,started=false,unsubs=[],courseSubs=[];
