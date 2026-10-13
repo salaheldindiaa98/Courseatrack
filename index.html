@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>CourseTrack University · Free v6</title>
+<title>CourseTrack University · Academic Workspace</title>
 <style>
 :root{--bg:#eef1f5;--card:#fff;--text:#14213d;--muted:#66718a;--primary:#2f4ed8;--line:#d7dde7;--soft:#f5f7fa;--green:#067647;--greenbg:#dff7e9;--red:#b42318;--redbg:#fee4e2;--amber:#8a5b00;--amberbg:#fff3cd;--bluebg:#e8edff;--detail-shift:0px}
 *{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--text);font:15px Inter,Roboto,system-ui,-apple-system,sans-serif}button,input,select,textarea{font:inherit}button{border:0;border-radius:8px;background:var(--primary);color:#fff;padding:9px 12px;font-weight:700}button.secondary{background:#e7ebf2;color:var(--text)}button.ghost{background:transparent;color:var(--text);border:1px solid var(--line)}button.danger{background:var(--red)}button.small{padding:6px 9px;font-size:12px}button:disabled{opacity:.5}input,select,textarea{border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--text);padding:9px;max-width:100%}label{display:block;color:var(--muted);font-size:12px;font-weight:650}label input,label select,label textarea{display:block;width:100%;margin-top:5px}.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.grow{flex:1}.spacer{flex:1}.stack{display:grid;gap:10px}.grid{display:grid;gap:12px}.g2{grid-template-columns:repeat(2,minmax(0,1fr))}.g3{grid-template-columns:repeat(3,minmax(0,1fr))}.shell{max-width:1180px;margin:auto;padding:14px}.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px}.section-title{display:flex;align-items:flex-start;gap:10px;margin-bottom:12px}.section-title h2{margin:0;font-size:18px}.section-title p{margin:4px 0 0;color:var(--muted);font-size:12px}.meta{font-size:12px;color:var(--muted)}.badge{display:inline-flex;align-items:center;gap:4px;border-radius:999px;padding:4px 8px;background:#eef1f6;color:var(--muted);font-size:11px;font-weight:750}.badge.blue{background:var(--bluebg);color:#2949b5}.badge.green{background:var(--greenbg);color:var(--green)}.badge.warn{background:var(--amberbg);color:var(--amber)}.badge.red{background:var(--redbg);color:var(--red)}.notice{padding:10px 11px;border-radius:9px;background:#f0f3fb;color:#4c5874;font-size:12px}.notice.warn{background:#fff8e5;color:#765000}.empty{padding:24px;text-align:center;color:var(--muted)}
@@ -37,6 +37,214 @@
 .visitorov{position:fixed;inset:0;z-index:90;background:#0008;display:flex;align-items:flex-end;justify-content:center;padding:0}.visitorpanel{background:#fff;width:min(720px,100%);height:min(88dvh,760px);max-height:88dvh;border-radius:18px 18px 0 0;padding:12px;display:flex;flex-direction:column;overflow:hidden}.visitorhead{display:flex;align-items:center;gap:8px}.visitorsearch{margin-top:10px;width:100%;font-size:16px}.visitorresults{flex:1;overflow:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;margin-top:10px;border-top:1px solid var(--line)}.visitorrow{width:100%;display:grid;grid-template-columns:72px minmax(0,1fr) auto;gap:8px;align-items:center;text-align:left;background:#fff;color:var(--text);border-bottom:1px solid #edf0f4;border-radius:0;padding:10px 4px}.visitorrow:active{background:#f5f7fa}.visitorserial{font-weight:850;text-align:center}.visitormain b{display:block}.visitormain small{display:block;color:var(--muted);margin-top:2px}.visitorlab{font-size:11px;color:var(--muted)}.visitorhint{font-size:11px;color:var(--muted);margin-top:5px}.visitorselected{background:#eef2ff}.foreignresults{margin-top:10px;border:1px solid #cfd8ff;background:#f5f7ff;border-radius:10px;padding:9px}.foreignrow{display:flex;gap:8px;align-items:center;padding:6px 0;border-top:1px solid #e2e6f6}.foreignrow:first-child{border-top:0}.foreignrow .grow{min-width:0}.foreignrow b,.foreignrow span{overflow-wrap:anywhere}.pending{opacity:.72}.homegrid{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(300px,.8fr);gap:12px}.facultybox{margin-top:12px}.menuitems{display:grid;gap:7px}.courseactions{display:flex;gap:6px;flex-wrap:wrap}.permgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;margin-top:7px}.permgrid .check{padding:6px}.assessperm{display:flex;gap:5px;flex-wrap:wrap;margin-top:6px}.assessperm label{display:inline-flex;align-items:center;gap:4px;border:1px solid var(--line);border-radius:999px;padding:4px 7px;color:var(--text);font-size:10px}.assessperm input{margin:0}.backupbuttons{display:flex;gap:8px;flex-wrap:wrap}.adminsections{display:grid;gap:12px}.adminsection{border:1px solid var(--line);border-radius:10px;padding:12px;background:#fafbfc}.adminsection h3{margin:0 0 4px;font-size:15px}.adminsection .sectionnote{font-size:11px;color:var(--muted);margin-bottom:9px}.adminrow{display:flex;gap:8px;align-items:center;flex-wrap:wrap;padding:8px 0;border-top:1px solid #e7ebf1}.adminrow:first-of-type{border-top:0}.adminrow .grow{min-width:170px}.adminrow b{display:block}.adminrow small{display:block;color:var(--muted);margin-top:2px}.admincontrols{display:flex;gap:6px;flex-wrap:wrap}.semesterlist{display:grid}.adminselect{min-width:220px;max-width:100%}.qrshade{position:fixed;inset:0;z-index:100;background:#000}.qrscanpanel{position:absolute;inset:0;display:flex;flex-direction:column;color:#fff}.qrtop{position:relative;z-index:3;display:flex;gap:8px;align-items:center;padding:calc(10px + env(safe-area-inset-top)) 10px 8px;background:linear-gradient(#000b,#0000)}#qr-reader{position:absolute;inset:0;width:100%;height:100%;background:#000}#qr-reader video{width:100%!important;height:100%!important;object-fit:cover!important}.qrresult{position:relative;z-index:3;margin-top:auto;padding:12px 12px calc(16px + env(safe-area-inset-bottom));background:linear-gradient(#0000,#000d)}
 .qrprintgrid{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}.qrprintitem{border:1px solid var(--line);border-radius:9px;padding:8px;text-align:center}.qrsticker{width:25mm;height:25mm;margin:auto;background:#fff;display:grid;place-items:center}.qrsticker>div{width:18mm;height:18mm}.qrsticker canvas,.qrsticker img{width:18mm!important;height:18mm!important}.qrwho{font-size:10px;margin-top:5px;color:var(--muted)}@media print{body *{visibility:hidden!important}#qrprint,#qrprint *{visibility:visible!important}#qrprint{position:absolute;inset:0;background:#fff}.qrprintgrid{grid-template-columns:repeat(6,25mm);gap:3mm;justify-content:center}.qrprintitem{border:0;padding:0}.qrwho{display:none}.qrsticker{width:25mm;height:25mm}.qrsticker>div,.qrsticker canvas,.qrsticker img{width:18mm!important;height:18mm!important}}
 @media(max-width:800px){.homegrid{grid-template-columns:1fr}.permgrid{grid-template-columns:1fr}}
+
+
+/* ==============================================================
+   CourseTrack · Academic Command Center visual redesign
+   Pure presentation layer. Course data, permissions, Firebase,
+   calculations, Excel and QR workflows remain on original code.
+   ============================================================== */
+:root {
+  --bg:#F3F6FA; --card:#FFFFFF; --text:#142B41; --muted:#728196;
+  --primary:#127C80; --line:#E1E8F0; --soft:#F7F9FC;
+  --green:#0D775B; --greenbg:#DDF5E9;
+  --red:#B83E3A; --redbg:#FDE9E7;
+  --amber:#916313; --amberbg:#FFF4DC;
+  --bluebg:#E8F0FB;
+  --navy:#10243A; --navy-2:#152D48;
+  --shadow:0 6px 26px rgba(32,55,79,.045);
+}
+html {scroll-behavior:smooth}
+body {font-family:Inter,"Plus Jakarta Sans",Roboto,system-ui,-apple-system,sans-serif;line-height:1.45;letter-spacing:-.012em;}
+button,input,select,textarea{font-family:inherit}
+button{border-radius:10px;padding:10px 15px;font-weight:700;letter-spacing:-.014em;transition:background .16s,border-color .16s,box-shadow .16s,transform .15s;cursor:pointer}
+button:not(:disabled):active{transform:translateY(1px)}
+button:not(:disabled):focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid #5ac2c0;outline-offset:2px}
+button:hover:not(:disabled):where(:not(.secondary):not(.ghost):not(.danger):not(.attplain):not(.absbtn):not(.ct-nav-btn):not(.courseback):not(.coursemenu):not(.outline)){background:#0E6A6E}
+button.secondary{background:#ECF2F6;color:#234258}
+button.secondary:hover:not(:disabled){background:#DFE9F0}
+button.ghost{border-color:#DCE5ED}
+button.danger:hover:not(:disabled){background:#a12d2b}
+input,select,textarea{border:1px solid #DBE4EC;border-radius:10px;padding:10px 12px;background:#fff;min-height:40px;transition:border-color .15s,box-shadow .15s}
+input:focus,select:focus,textarea:focus{border-color:#56ABA9;box-shadow:0 0 0 3px rgba(18,124,128,.09);outline:none}
+label{color:#66798D;font-size:11.5px;letter-spacing:.005em}
+label input,label select,label textarea{margin-top:6px}
+.card{border:1px solid #E5ECF2;border-radius:18px;padding:19px 21px;box-shadow:var(--shadow)}
+.section-title{align-items:center;margin-bottom:17px;flex-wrap:wrap}
+.section-title h2{font-size:19px;letter-spacing:-.035em;color:#17324A}
+.section-title p{font-size:12px;line-height:1.6}
+.badge{padding:5px 9px;border-radius:9px;font-size:10px;letter-spacing:.01em;background:#EFF3F7;color:#5E7286}
+.badge.blue{background:#E7F3F5;color:#0D777A}
+.badge.green{background:#DEF5E9;color:#117855}
+.badge.warn{background:#FFF2D8;color:#94610D}
+.badge.red{background:#FFEBE9;color:#B93D37}
+.notice{border-radius:11px;padding:12px 14px;background:#EEF7F8;color:#456A71;line-height:1.6}
+.notice.warn{background:#FFF8E8;color:#805A14}
+.meta{color:#748397}
+.shell{max-width:1480px;padding:22px 27px;margin:0 auto}
+#app{min-height:100dvh}
+.appbar{position:sticky;top:0;z-index:42;min-height:68px;padding:10px 26px;background:var(--navy);border-bottom:1px solid rgba(255,255,255,.09);box-shadow:0 2px 14px rgba(10,26,46,.13)}
+.mark{height:39px;width:39px;border-radius:12px;background:#1E8386;color:white;letter-spacing:-.05em;box-shadow:inset 0 1px 0 rgba(255,255,255,.2)}
+.brand b{font-size:19px;letter-spacing:-.045em}
+.brand small{font-size:10px;color:#93A8BD;letter-spacing:.015em}
+.brand{gap:11px}
+.rolechip{background:#24405A;color:#D8E8F0;border:1px solid #34526B;padding:6px 11px;font-size:10px}
+.userchip{gap:10px}
+.userchip .avatar{width:36px;height:36px;background:#22626D;border:1px solid #39848B}
+.appbar .secondary{background:#264159;color:#EAF5F7;border:1px solid #385670}
+.appbar .secondary:hover:not(:disabled){background:#36536C}
+.workspace{display:grid;grid-template-columns:242px minmax(0,1fr);min-height:calc(100dvh - 68px)}
+.workspace-side{background:#fff;border-right:1px solid #E1E9F0;display:flex;flex-direction:column;padding:24px 14px 18px;min-width:0}
+.nav-eyebrow{color:#91A0AE;font-size:10px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;padding:0 13px;margin:4px 0 12px}
+.course-side-meta{padding:13px 14px;background:#F3F7FA;border:1px solid #E7EDF3;border-radius:13px;margin:0 2px 23px}
+.course-side-meta .code{font-size:14px;font-weight:850;color:#1D3C56;letter-spacing:-.02em}
+.course-side-meta .term{font-size:11px;color:#7D8DA0;margin-top:3px;overflow-wrap:anywhere}
+.ct-nav{display:grid;gap:5px}
+.ct-nav-btn{display:flex;align-items:center;gap:12px;background:transparent;color:#60758B;border:0;border-radius:11px;padding:12px 13px;text-align:left;width:100%;font-weight:650;font-size:13px;box-shadow:none;min-height:45px}
+.ct-nav-btn:hover:not(:disabled){background:#F2F6F8;color:#1A465B}
+.ct-nav-btn.on,.ct-nav-btn.on:hover:not(:disabled){background:#E2F3F3;color:#0C7476;font-weight:800}
+.ct-nav-btn .ct-ico{width:19px;height:19px;display:flex;align-items:center;justify-content:center;flex:0 0 19px}
+.ct-ico svg,.ct-hero-ico svg{width:20px;height:20px;display:block;stroke:currentColor}
+.ct-nav-btn.on .ct-ico{color:#0E8384}
+.ct-sidebar-bottom{margin-top:auto;padding-top:22px}
+.ct-sidebar-foot{margin:11px 9px 0;padding:13px;border-radius:12px;background:#F6F9FB;color:#8B9AAA;font-size:10px;line-height:1.65}
+.ct-sidebar-foot b{color:#4E697E}
+.workspace-main{min-width:0;background:#F4F7FA}
+.coursebar{padding:22px 27px 12px;border:0;background:transparent;gap:13px}
+.courseback{width:41px;height:41px;background:#fff;border:1px solid #E1E8EF;border-radius:12px;font-size:20px;box-shadow:0 2px 4px #1A344308}
+.courseback:hover:not(:disabled),.coursemenu:hover:not(:disabled){background:#EAF0F3}
+.coursemenu{width:41px;height:41px;background:#fff;border:1px solid #E1E8EF;border-radius:12px;box-shadow:0 2px 4px #1A344308}
+.coursetitle b{font-size:23px;letter-spacing:-.05em;color:#18344B}
+.coursetitle span{font-size:12px;margin-top:5px;color:#8693A1}
+.workspace-main > .shell{padding-top:12px}
+.tabs{display:none}
+.ct-page-intro{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:17px}
+.ct-page-intro .hint{font-size:12px;color:#8B98A8}
+.ct-overview-hero{border-radius:19px;padding:26px 30px;background:linear-gradient(116deg,#10283E 5%,#1A4755 62%,#166F73 100%);color:white;overflow:hidden;position:relative;margin-bottom:17px}
+.ct-overview-hero:before{content:"";position:absolute;width:320px;height:320px;border-radius:50%;border:1px solid rgba(255,255,255,.12);right:-80px;top:-180px;box-shadow:0 0 0 65px rgba(255,255,255,.025),0 0 0 130px rgba(255,255,255,.022);pointer-events:none}
+.ct-overview-hero h2{font-size:27px;margin:4px 0 8px;letter-spacing:-.055em;max-width:620px;position:relative}
+.ct-overview-hero p{color:#C0D7DE;font-size:12px;max-width:560px;position:relative;margin:0}
+.ct-overview-hero .eyebrow{font-size:10px;text-transform:uppercase;letter-spacing:.14em;font-weight:800;color:#87D8D1;position:relative}
+.ct-overview-buttons{display:flex;gap:8px;flex-wrap:wrap;margin-top:23px;position:relative}
+.ct-overview-buttons button{background:#fff;color:#16666D;border:1px solid #fff}
+.ct-overview-buttons button:hover:not(:disabled){background:#E4F4F4;color:#0D6B70}
+.ct-overview-buttons .outline{background:transparent;border:1px solid rgba(255,255,255,.4);color:white}
+.ct-overview-buttons .outline:hover:not(:disabled){background:rgba(255,255,255,.12)}
+.ct-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px;margin:0 0 15px}
+.ct-stat{background:#fff;border:1px solid #E4ECF3;box-shadow:var(--shadow);border-radius:16px;padding:19px 20px;min-width:0}
+.ct-stat-top{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.ct-stat-label{font-weight:700;color:#77889B;font-size:11px}
+.ct-stat-symbol{width:33px;height:33px;border-radius:10px;background:#EAF6F4;color:#11817D;display:flex;align-items:center;justify-content:center}
+.ct-stat strong{display:block;font-size:29px;line-height:1.15;letter-spacing:-.065em;color:#17344A;margin-top:14px}
+.ct-stat small{display:block;font-size:10px;color:#9BA8B6;margin-top:6px}
+.ct-overview-lower{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(270px,.75fr);gap:15px}
+.ct-labrow{display:flex;align-items:center;gap:13px;padding:13px 1px;border-top:1px solid #E9EFF3}
+.ct-labrow:first-of-type{border-top:0}
+.ct-labrow .ct-labicon{width:38px;height:38px;border-radius:11px;background:#EEF5F8;display:grid;place-items:center;color:#167B82}
+.ct-labrow .ct-labmain{flex:1;min-width:0}
+.ct-labrow .ct-labmain b{font-size:13px;color:#294358}
+.ct-labrow .ct-labmain span{display:block;font-size:11px;color:#90A0AE}
+.ct-labrow button{font-size:11px}
+.ct-quickactions{display:grid;gap:9px}
+.ct-quickactions button{width:100%;text-align:left;display:flex;align-items:center;gap:10px;background:#F4F8FA;color:#234457;border:1px solid #E8EEF1;min-height:47px}
+.ct-quickactions button:hover:not(:disabled){background:#E9F2F4;color:#215A68}
+.ct-quickactions .ct-ico{color:#138080}
+.ct-home-hero{display:flex;align-items:center;justify-content:space-between;gap:18px;border-radius:20px;background:linear-gradient(114deg,#10283E 0%,#1F5260 68%,#167D7D);color:#fff;margin-bottom:18px;padding:29px 31px}
+.ct-home-hero .pretitle{color:#8ADAD5;letter-spacing:.13em;text-transform:uppercase;font-size:10px;font-weight:800}
+.ct-home-hero h1{font-size:clamp(22px,3vw,33px);letter-spacing:-.05em;margin:5px 0 6px}
+.ct-home-hero p{font-size:12px;color:#C8DADD;margin:0;max-width:580px}
+.ct-home-hero .count{min-width:120px;border:1px solid #ffffff3b;background:#ffffff12;border-radius:15px;text-align:center;padding:14px 17px}
+.ct-home-hero .count strong{font-size:29px;display:block;line-height:1.2}
+.ct-home-hero .count span{color:#BDD6DB;font-size:10px}
+.homegrid{grid-template-columns:minmax(0,1.4fr) minmax(295px,.82fr);gap:16px}
+.homegrid .card{min-width:0}
+.course{padding:16px 0;gap:15px}
+.course h3{color:#23445A;font-size:15px;letter-spacing:-.025em}
+.course .meta{font-size:11px}
+.course > button{background:#E5F4F3;color:#0D7779;font-size:12px;white-space:nowrap}
+.course > button:hover:not(:disabled){background:#CAE7E5}
+.studenttable{border:1px solid #E0E9F0;border-radius:15px;box-shadow:var(--shadow)}
+.studenthdr{background:#EAF0F5;color:#576F84;font-size:11px;letter-spacing:.04em;text-transform:uppercase}
+.studenthdr > div{padding:11px 13px}
+.studentgroup{border-top:1px solid #E8EEF3}
+.studentgroup:nth-of-type(2n){background:#FCFDFE}
+.studentmain{min-height:58px}
+.studentmain>div{padding:10px 13px}
+.serialcell{font-weight:800;color:#3F6A7B;font-size:13px}
+.idcell{color:#668095;font-size:12px;font-variant-numeric:tabular-nums}
+.studentname{color:#233E55;font-size:13px;line-height:1.3;font-weight:800}
+.studentdetail{border-color:#E9EEF3;background:#F8FAFC}
+.syncstrip{background:transparent}
+.syncinner{padding:5px 11px 7px}
+.attplain{min-height:40px;border-radius:9px}
+.attplain:hover:not(:disabled){background:#E6F1F4}
+.attplain.P{background:#EDF8F1}
+.attplain.A{background:#FFF1EF}
+.attplain.X{background:#EAF2FF}
+.attcell{padding:2px 3px;flex-basis:83px}
+.attweek{font-size:12px;color:#667C91}
+.attmark{font-size:19px}
+.studentgroup .rowmeta .badge{font-size:9px;padding:3px 7px;border-radius:6px}
+.gradecell{flex-basis:119px}
+.gradehead{font-size:10px;color:#667D90}
+.scorebox input{border-radius:8px;height:35px}
+.absbtn{height:35px;border-radius:8px}
+.summarycell{background:#F1F6FB;border-right:1px solid #E3EBF3}
+.summaryvalue{color:#25465A}
+.searchbar{border-top-color:#E9EFF3;gap:10px}
+.searchbar input{border-radius:11px;background:#F8FAFC}
+.searchcount{font-size:11px;font-weight:600}
+.attpanel{padding:21px}
+.attlab select{font-size:21px;color:#25445B;font-weight:850}
+.atthead>.badge{align-self:center}
+.session{box-shadow:none;border-radius:14px;background:#F8FAFC;border-color:#E5ECF3;margin-top:15px}
+.session-title{background:#EDF3F7;font-size:12px;color:#3A576D;padding:13px 15px}
+.session-body{padding:13px 15px}
+.session-actions button{min-height:43px;border-radius:10px}
+.session-actions button:first-child{background:#E9F2F5;color:#2B6474}
+.session-actions button:nth-child(2){background:#0D7C7C}
+.session-actions button:nth-child(3){background:#1D455F}
+.attpolicy{margin-top:13px}
+.gradefilters{border-radius:12px;background:#F7FAFC;border-color:#E6EDF2;padding:13px;gap:10px}
+.scopebar{padding-bottom:5px}
+.focusov{background:#F2F7FA}
+.focuscard,.focuscard.gradeidentity{border:1px solid #E0EAF0;box-shadow:0 13px 36px #14213d13;border-radius:20px}
+.focusgradeconsole{background:#F8FBFD;border-color:#DFE8F1;box-shadow:0 -12px 35px #172d4420}
+.focuskeypad button{border-radius:11px}
+.focusactions .present{background:#0E8367}
+.focusactions .absent{background:#BC4946}
+.dialog{padding:24px;border-radius:19px;box-shadow:0 20px 55px #061b3440}
+.lecturecard{background:#FCFDFE;border-radius:12px;border-color:#E4EBF2;padding:14px}
+.adminsection{background:#FBFCFE;border-color:#E6EDF3;border-radius:14px;padding:16px}
+.ct-mobile-nav{display:none}
+.ct-appstatus{display:inline-flex;align-items:center;gap:5px;color:#A8D7D5;font-size:10px;margin-left:10px;font-weight:600}
+.ct-appstatus:before{content:"";width:6px;height:6px;border-radius:50%;background:#5FE2C5}
+@media(max-width:1100px){.workspace{grid-template-columns:204px minmax(0,1fr)}.workspace-side{padding-left:10px;padding-right:10px}.ct-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.ct-overview-lower{grid-template-columns:1fr}.shell{padding:19px}.coursebar{padding:19px 19px 7px}}
+@media(max-width:760px){
+ .appbar{min-height:59px;padding:9px 13px}.appbar .mark{height:34px;width:34px;border-radius:10px}.brand b{font-size:17px}.rolechip{display:none}.userchip .avatar{width:31px;height:31px}.appbar .ct-appstatus{display:none}
+ .workspace{display:block;min-height:calc(100dvh - 59px)}.workspace-side{display:none}.workspace-main{min-height:calc(100dvh - 59px);padding-bottom:calc(69px + env(safe-area-inset-bottom))}
+ .ct-mobile-nav{display:grid;position:fixed;bottom:0;left:0;right:0;grid-template-columns:repeat(6,minmax(0,1fr));z-index:38;background:#fff;border-top:1px solid #DCE6EE;box-shadow:0 -5px 16px #10243A12;padding:5px 5px calc(5px + env(safe-area-inset-bottom));gap:1px}
+ .ct-mobile-nav .ct-nav-btn{display:flex;flex-direction:column;justify-content:center;gap:2px;min-width:0;width:100%;min-height:50px;padding:5px 1px;border-radius:9px;font-size:9px;text-align:center;font-weight:700}
+ .ct-mobile-nav .ct-nav-btn .ct-ico{width:19px;height:19px;flex:0 0 19px}
+ .ct-mobile-nav .ct-nav-btn span:last-child{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;display:block}
+ .ct-mobile-nav .ct-ico svg{width:18px;height:18px}
+ .coursebar{padding:15px 14px 3px;gap:9px}.coursetitle b{font-size:17px}.coursetitle span{font-size:10px;margin-top:2px}
+ .courseback,.coursemenu{width:36px;height:36px;border-radius:10px}
+ .workspace-main>.shell{padding:13px 12px 18px}.shell{padding:15px 12px}
+ .ct-home-hero{padding:21px 20px;border-radius:16px}.ct-home-hero .count{min-width:77px;padding:12px 9px}.ct-home-hero .count strong{font-size:24px}
+ .ct-overview-hero{padding:22px 20px;border-radius:16px}.ct-overview-hero h2{font-size:23px}.ct-stat{padding:16px}.ct-stat strong{font-size:25px}
+ .ct-stats{gap:9px}.ct-overview-lower{gap:12px}.card{padding:15px;border-radius:15px}
+ .section-title h2{font-size:17px}.attpanel{padding:15px}.attlab select{font-size:18px}
+ .studentmain>div{padding:10px 7px}.studenthdr>div{padding:10px 7px}
+ .studentname{font-size:13px}.studentdetail{background:#F9FBFC}
+ .attcell{flex-basis:77px}
+ .gradecell{flex-basis:104px}
+ .ct-page-intro{display:none}
+ .authwrap{background:#F2F6FA}
+}
+@media(max-width:380px){.ct-mobile-nav .ct-nav-btn{font-size:8px}.ct-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.ct-stat{padding:12px}.ct-stat strong{font-size:23px}.ct-stat-label{font-size:10px}.ct-home-hero .count{display:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}button,input,select,textarea{transition:none!important}}
+
 </style>
 </head>
 <body><div id="app"></div><div id="modal"></div>
@@ -95,10 +303,14 @@ function currentMembership(){return S.memberships.find(m=>m.courseId===S.active&
 function isCoordinator(){const m=currentMembership();return isFacultyAdmin()||!!(m?.approved&&m.role==='coordinator')}
 function perm(k){if(isCoordinator())return true;return !!currentMembership()?.permissions?.[k]}
 function canGrade(aid){if(isCoordinator())return true;const p=currentMembership()?.permissions||{};return !!p.grading&&(p.gradeItems?.['*']||p.gradeItems?.[aid])}
-function appbar(){const name=S.profile?.displayName||S.user?.email||'User';return `<div class=appbar><div class=brand><div class=mark>CT</div><div><b>CourseTrack</b><small>University Attendance & Grading · Free v6</small></div></div><div class=spacer></div><span class=rolechip>${esc(role())}</span><div class=userchip><div class=avatar>${esc((name.trim()[0]||'U').toUpperCase())}</div><span>${esc(name)}</span><button class="small secondary" onclick="auth.signOut()">Sign out</button></div></div>`}
+function ctIcon(k){const d={overview:'<rect x="3" y="3" width="8" height="8" rx="1.5"/><rect x="13" y="3" width="8" height="5" rx="1.5"/><rect x="13" y="10" width="8" height="11" rx="1.5"/><rect x="3" y="13" width="8" height="8" rx="1.5"/>',attendance:'<rect x="3" y="4" width="18" height="17" rx="2"/><path d="M8 2v4M16 2v4M3 9h18m-13 5 2 2 4-4"/>',grades:'<path d="M4 20h16M7 16V9M12 16V4M17 16v-6"/><path d="M5 18h4m1 0h4m1 0h4"/>',students:'<circle cx="9" cy="8" r="3"/><path d="M3 20v-2a6 6 0 0 1 12 0v2M17 5a3 3 0 0 1 0 6M17 14a5 5 0 0 1 4 5v1"/>',instructors:'<circle cx="9" cy="7" r="3"/><path d="M3 20v-2a6 6 0 0 1 12 0v2M18 7v7m-3.5-3.5h7"/>',setup:'<path d="M12 3l1.3 2.3 2.7.5.6 2.6 2.3 1.4-1.1 2.5 1.1 2.5-2.3 1.4-.6 2.6-2.7.5L12 22l-1.3-2.3-2.7-.5-.6-2.6-2.3-1.4 1.1-2.5-1.1-2.5 2.3-1.4.6-2.6 2.7-.5z" transform="translate(0 -1.5) scale(1 .95)"/><circle cx="12" cy="11" r="3"/>',arrow:'<path d="M4 12h16m-6-6 6 6-6 6"/>',scan:'<path d="M8 3H5a2 2 0 0 0-2 2v3m13-5h3a2 2 0 0 1 2 2v3M3 16v3a2 2 0 0 0 2 2h3m13-5v3a2 2 0 0 1-2 2h-3M4 12h16"/>',labs:'<path d="M9 3h6m-5 0v7l-5 8a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-8V3M8 15h8"/>',alert:'<path d="M12 3 2 20h20L12 3zm0 7v4m0 3h.01"/>',check:'<path d="m4 12 5 5 11-11"/>',folder:'<path d="M3 6a2 2 0 0 1 2-2h5l2 3h7a2 2 0 0 1 2 2v10H3z"/>'};return '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+(d[k]||d.overview)+'</svg>'}
+function ctSwitchTab(k){S.tab=k;detailScrollX=0;render();window.scrollTo({top:0,behavior:'instant'})}
+function ctOverview(){const n=S.students.length, assigned=S.students.filter(s=>s.lab).length,totalLabs=S.labs.length,w=S.attWeek||1,marked=S.students.filter(s=>s.att?.[w]==='P'||s.att?.[w]==='X'||s.att?.[w]==='A').length,gradeItems=S.course.assessments||[],graded=S.students.reduce((count,s)=>count+gradeItems.filter(a=>s.g?.[a.id]!==undefined&&s.g?.[a.id]!=='').length,0),poss=n*gradeItems.length,coverage=poss?Math.round(graded/poss*100):0;const stat=(label,val,note,ico)=>`<div class=ct-stat><div class=ct-stat-top><span class=ct-stat-label>${label}</span><span class=ct-stat-symbol><span class=ct-ico>${ctIcon(ico)}</span></span></div><strong>${val}</strong><small>${note}</small></div>`;return `<div class=ct-overview-hero><div class=eyebrow>COURSE WORKSPACE</div><h2>${esc(S.course.code)} · ${esc(S.course.name)}</h2><p>Everything you need to coordinate lab attendance, student rosters, grading and course activities, in one place.</p><div class=ct-overview-buttons><button onclick="ctSwitchTab('attendance')">${ctIcon('attendance')} &nbsp; Record attendance</button><button class=outline onclick="ctSwitchTab('grades')">Go to grading →</button></div></div><div class=ct-stats>${stat('Enrolled students',n,'Across all lectures','students')}${stat('Active labs',totalLabs,assigned+' students assigned','labs')}${stat('Attendance · Week '+w,n?Math.round(marked/n*100)+'%':'—',marked+' / '+n+' records marked','attendance')}${stat('Grading completion',poss?coverage+'%':'—',graded+' / '+poss+' scores entered','grades')}</div><div class=ct-overview-lower><section class=card><div class=section-title><div><h2>Laboratory groups</h2><p>Browse labs or continue attendance where you left off.</p></div><button class="small secondary" onclick="ctSwitchTab('students')">Manage rosters</button></div>${S.labs.length?S.labs.map(l=>{const xs=S.students.filter(s=>s.lab===l.id);const done=xs.filter(s=>['P','A','X'].includes(s.att?.[w])).length;return `<div class=ct-labrow><div class=ct-labicon>${ctIcon('labs')}</div><div class=ct-labmain><b>${esc(l.name)}</b><span>${xs.length} students · ${done} attendance records for week ${w}</span></div><button class="secondary small" onclick="S.attLab='${l.id}';ctSwitchTab('attendance')">Open ${ctIcon('arrow')}</button></div>`}).join(''):'<div class=empty>No laboratory groups yet. Add labs from the Students page.</div>'}</section><section class=card><div class=section-title><div><h2>Quick actions</h2><p>Jump to your most-used tools.</p></div></div><div class=ct-quickactions><button onclick="ctSwitchTab('attendance')"><span class=ct-ico>${ctIcon('attendance')}</span> Attendance & QR scanning</button><button onclick="ctSwitchTab('grades')"><span class=ct-ico>${ctIcon('grades')}</span> Enter student grades</button><button onclick="ctSwitchTab('students')"><span class=ct-ico>${ctIcon('students')}</span> Manage student rosters</button><button onclick="ctSwitchTab('setup')"><span class=ct-ico>${ctIcon('setup')}</span> Course configuration</button></div><div class=notice style="margin-top:16px">Course data and permissions remain synchronized through your existing Firebase project.</div></section></div>`}
+
+function appbar(){const name=S.profile?.displayName||S.user?.email||'User';return `<div class=appbar><div class=brand><div class=mark>CT</div><div><b>CourseTrack</b><small>University attendance & grading</small></div></div><div class=ct-appstatus>Academic workspace</div><div class=spacer></div><span class=rolechip>${esc(role())}</span><div class=userchip><div class=avatar>${esc((name.trim()[0]||'U').toUpperCase())}</div><span>${esc(name)}</span><button class="small secondary" onclick="auth.signOut()">Sign out</button></div></div>`}
 function render(){if(!S.user)return;const a=document.activeElement,f=a?.dataset?.f,ss=typeof a?.selectionStart==='number'?a.selectionStart:null,se=typeof a?.selectionEnd==='number'?a.selectionEnd:null;$('#app').innerHTML=appbar()+(S.loading?'<div class=loading>Loading CourseTrack…</div>':S.view==='home'?home():courseView());if(f){const e=document.querySelector(`[data-f="${CSS.escape(f)}"]`);if(e){e.focus();if(ss!==null&&typeof e.setSelectionRange==='function'){const L=String(e.value??'').length;try{e.setSelectionRange(Math.min(ss,L),Math.min(se??ss,L))}catch(_){}}}}requestAnimationFrame(applySyncedScroll)}
 function errorScreen(e){$('#app').innerHTML=`<div class=authwrap><div class="card authbox"><h2>CourseTrack could not load</h2><p>${esc(e?.message||e)}</p><button onclick=location.reload()>Reload</button></div></div>`}
-function home(){const mine=S.courses.map(c=>{const m=S.memberships.find(x=>x.courseId===c.id&&x.uid===S.user.uid);const rr=isFacultyAdmin()?(m?.approved&&m.role==='coordinator'?'Faculty Admin · Coordinator':'Faculty Admin'):m?.role==='coordinator'?'Coordinator':'Instructor';return `<div class=course><div><h3>${esc(c.code)} · ${esc(c.name||'Course')}</h3><div class=meta>${esc(c.semester||'')} · ${esc(c.facultyId||'')}</div><div class=badges><span class="badge blue">${esc(rr)}</span></div></div><button onclick="openCourse('${c.id}')">Open course</button></div>`}).join('')||'<div class=empty>No approved courses yet.</div>';const pend=S.memberships.filter(m=>!m.approved).map(m=>`<div class="course pending"><div><b>${esc(m.courseCode||m.courseId||'Course')}</b><div class=meta>${esc(m.semester||'')} · awaiting coordinator approval</div></div></div>`).join('');const fa=isFacultyAdmin()?facultyAdminPanel():'';const sems=selectableSemesters(),admin=isFacultyAdmin();return `<main class=shell><div class=homegrid><section class=card><div class=section-title><div><h2>My Courses</h2><p>Open a course or use its direct course URL.</p></div></div><div class=course-list>${mine}${pend}</div></section><section class=card><div class=section-title><div><h2>Join or create course</h2><p>Course code + semester identifies one offering.</p></div></div><div class=stack><label>Course code<input id=jcode placeholder="e.g. PPC101" autocapitalize=characters></label><label>Semester<select id=jsem ${sems.length?'':'disabled'}>${semesterOptions()}</select></label><label>Role<select id=jrole>${admin?'<option value=coordinator selected>Course Coordinator</option><option value=instructor>Course Instructor</option>':'<option value=instructor>Course Instructor</option><option value=coordinator>Course Coordinator</option>'}</select></label><label id=jnlabel style="display:${admin?'block':'none'}">Course name<input id=jname placeholder="e.g. Medicinal Plants"></label><button onclick=joinOrCreate() ${sems.length?'':'disabled'}>Continue</button><div class=notice>${sems.length?(admin?'As a Faculty Admin, you may create a course immediately with yourself as its Course Coordinator. Other coordinators still require Faculty Admin approval.':'Course Coordinators require Faculty Admin approval. Course Instructors require Course Coordinator approval.'):'There are no open semesters. Ask a Faculty Admin to add or reopen one.'}</div></div></section></div>${fa}</main>`}
+function home(){const mine=S.courses.map(c=>{const m=S.memberships.find(x=>x.courseId===c.id&&x.uid===S.user.uid);const rr=isFacultyAdmin()?(m?.approved&&m.role==='coordinator'?'Faculty Admin · Coordinator':'Faculty Admin'):m?.role==='coordinator'?'Coordinator':'Instructor';return `<div class=course><div><h3>${esc(c.code)} · ${esc(c.name||'Course')}</h3><div class=meta>${esc(c.semester||'')} · ${esc(c.facultyId||'')}</div><div class=badges><span class="badge blue">${esc(rr)}</span></div></div><button onclick="openCourse('${c.id}')">Open course</button></div>`}).join('')||'<div class=empty>No approved courses yet.</div>';const pend=S.memberships.filter(m=>!m.approved).map(m=>`<div class="course pending"><div><b>${esc(m.courseCode||m.courseId||'Course')}</b><div class=meta>${esc(m.semester||'')} · awaiting coordinator approval</div></div></div>`).join('');const fa=isFacultyAdmin()?facultyAdminPanel():'';const sems=selectableSemesters(),admin=isFacultyAdmin();return `<main class=shell><div class=ct-home-hero><div><span class=pretitle>YOUR ACADEMIC WORKSPACE</span><h1>Welcome back${S.profile?.displayName?', '+esc(S.profile.displayName.split(' ')[0]):''}</h1><p>Find your courses, manage your classes, and keep attendance and grading organized in one place.</p></div><div class=count><strong>${S.courses.length}</strong><span>Active courses</span></div></div><div class=homegrid><section class=card><div class=section-title><div><h2>My Courses</h2><p>Open a course or use its direct course URL.</p></div></div><div class=course-list>${mine}${pend}</div></section><section class=card><div class=section-title><div><h2>Join or create course</h2><p>Course code + semester identifies one offering.</p></div></div><div class=stack><label>Course code<input id=jcode placeholder="e.g. PPC101" autocapitalize=characters></label><label>Semester<select id=jsem ${sems.length?'':'disabled'}>${semesterOptions()}</select></label><label>Role<select id=jrole>${admin?'<option value=coordinator selected>Course Coordinator</option><option value=instructor>Course Instructor</option>':'<option value=instructor>Course Instructor</option><option value=coordinator>Course Coordinator</option>'}</select></label><label id=jnlabel style="display:${admin?'block':'none'}">Course name<input id=jname placeholder="e.g. Medicinal Plants"></label><button onclick=joinOrCreate() ${sems.length?'':'disabled'}>Continue</button><div class=notice>${sems.length?(admin?'As a Faculty Admin, you may create a course immediately with yourself as its Course Coordinator. Other coordinators still require Faculty Admin approval.':'Course Coordinators require Faculty Admin approval. Course Instructors require Course Coordinator approval.'):'There are no open semesters. Ask a Faculty Admin to add or reopen one.'}</div></div></section></div>${fa}</main>`}
 document.addEventListener('change',e=>{if(e.target?.id==='jrole')$('#jnlabel').style.display=e.target.value==='coordinator'?'block':'none'})
 function facultyAdminPanel(){const req=S.requests.length?S.requests.map(r=>`<div class=adminrow><div class=grow><b>${esc(r.code)} · ${esc(r.name||'Course')}</b><small>${esc(r.semester)} · requested by ${esc(r.displayName||r.email||r.uid)}</small></div><div class=admincontrols><button class=small onclick="approveCoordinator('${r._}')">Approve</button><button class="small secondary" onclick="rejectCoordinator('${r._}')">Reject</button></div></div>`).join(''):'<div class=empty>No pending coordinator requests.</div>';const sems=semesterRows();const semHtml=sems.length?`<div class=semesterlist>${sems.map(x=>`<div class=adminrow><div class=grow><b>${esc(x.label||x.id)}</b><div class=badges>${x.current?'<span class="badge green">Current</span>':''}<span class="badge ${x.closed?'red':'blue'}">${x.closed?'Closed':'Open'}</span></div></div><div class=admincontrols>${x.current?'':`<button class="small secondary" onclick="setCurrentSemester('${x.id}')">Make current</button>`}<button class="small secondary" onclick="toggleSemester('${x.id}',${x.closed?'false':'true'})">${x.closed?'Reopen':'Close'}</button></div></div>`).join('')}</div>`:`<div class=notice>No managed semesters yet. Until you add them, CourseTrack uses the starter semester list shown in the course form.</div><button class="small secondary" style="margin-top:8px" onclick=seedDefaultSemesters()>Create starter semesters</button>`;const admins=(S.facultyUsers||[]).filter(x=>x.globalRole==='faculty_admin');const candidates=(S.facultyUsers||[]).filter(x=>x.globalRole!=='faculty_admin');const adminHtml=admins.map(x=>`<div class=adminrow><div class=grow><b>${esc(x.displayName||x.email||x.id)} ${x.id===S.user.uid?'(You)':''}</b><small>${esc(x.email||'')}</small></div><div class=admincontrols>${x.id===S.user.uid?'<span class="badge blue">Faculty Admin</span>':`<button class="small secondary" onclick="removeFacultyAdmin('${x.id}')">Remove admin</button>`}</div></div>`).join('')||'<div class=empty>No Faculty Admins found.</div>';const candidateOptions=candidates.map(x=>`<option value="${x.id}">${esc(x.displayName||x.email||x.id)}${x.email?' · '+esc(x.email):''}</option>`).join('');return `<section class="card facultybox"><div class=section-title><div><h2>Faculty administration</h2><p>Manage coordinator approvals, semesters and Faculty Admins for ${esc(S.profile.facultyId||'this faculty')}.</p></div></div><div class=adminsections><div class=adminsection><h3>Coordinator requests</h3><div class=sectionnote>Approving a request creates the course and makes that user its coordinator.</div>${req}</div><div class=adminsection><div class=row><div class=grow><h3>Academic semesters</h3><div class=sectionnote>Add future semesters, set the current semester, and close old semesters. Closed semesters stay visible on existing courses but cannot be used for new courses.</div></div><button class=small onclick=addSemesterDialog()>+ Add semester</button></div>${semHtml}</div><div class=adminsection><h3>Faculty Admins</h3><div class=sectionnote>The first Faculty Admin is still promoted once in Firebase. After that, Faculty Admins can appoint other existing CourseTrack users here. To transfer the role, appoint the new admin first; then the new admin can remove the old one.</div>${adminHtml}<div class=row style="margin-top:9px"><select id=newAdminUser class=adminselect ${candidateOptions?'':'disabled'}>${candidateOptions||'<option>No eligible users</option>'}</select><button class=small onclick=appointFacultyAdmin() ${candidateOptions?'':'disabled'}>Make Faculty Admin</button></div></div></div></section>`}
 async function joinOrCreate(){const code=$('#jcode').value.trim().toUpperCase(),semester=$('#jsem').value,rr=$('#jrole').value;if(!code)return alert('Enter the course code.');if(!semester)return alert('No open semester is available. Ask a Faculty Admin to add or reopen one.');if(rr==='coordinator'){const name=$('#jname').value.trim()||code;if(isFacultyAdmin()){try{await createCourseForCoordinator({uid:S.user.uid,displayName:S.profile.displayName,email:S.profile.email||S.user.email,facultyId:S.profile.facultyId,code,name,semester});alert('Course created. You are its Course Coordinator as well as Faculty Admin.')}catch(e){alert(e.message||e)}return}await db.collection('coordinatorRequests').add({uid:S.user.uid,displayName:S.profile.displayName,email:S.profile.email||S.user.email,facultyId:S.profile.facultyId,code,name,semester,status:'pending',createdAt:$ts()});alert('Coordinator request sent to the Faculty Admin.');return}const q=await db.collection('courses').where('facultyId','==',S.profile.facultyId).where('code','==',code).get();const c=q.docs.find(d=>d.data().semester===semester);if(!c)return alert('No matching course was found. Ask the coordinator to create it first.');const id=c.id+'_'+S.user.uid;await db.doc('memberships/'+id).set({courseId:c.id,courseCode:code,semester,uid:S.user.uid,displayName:S.profile.displayName,email:S.profile.email||S.user.email,role:'instructor',approved:false,facultyId:S.profile.facultyId,permissions:{attendance:false,roster:false,lockAttendance:false,exports:false,grading:false,gradeItems:{}},createdAt:$ts()},{merge:true});alert('Join request sent to the Course Coordinator.')}
@@ -120,7 +332,7 @@ function clearCourseSubs(){courseSubs.forEach(f=>{try{f()}catch(_){}});courseSub
 function openCourse(id){clearCourseSubs();S.active=id;S.view='course';S.tab='attendance';S.course=S.courses.find(c=>c.id===id)||null;S.labs=[];S.students=[];S.members=[];S.attLab='';S.gradeLab='';S.attWeek=1;S.attQ='';S.gradeQ='';S.gradeMetric='';S.gradeMin='';S.gradeMax='';S.gradeStatus='';detailScrollX=0;try{history.replaceState(null,'',location.pathname+'?course='+encodeURIComponent(id))}catch(_){}subscribeCourse(id);render()}
 function goHome(){clearCourseSubs();S.active=null;S.view='home';S.course=null;S.labs=[];S.students=[];S.members=[];try{history.replaceState(null,'',location.pathname)}catch(_){}render()}
 function subscribeCourse(id){courseSubs.push(db.doc('courses/'+id).onSnapshot(d=>{if(!d.exists){alert('Course no longer exists.');goHome();return}S.course={id:d.id,...d.data()};render()}));courseSubs.push(db.collection('courses/'+id+'/labs').onSnapshot(q=>{S.labs=q.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>(a.name||'').localeCompare(b.name||'',undefined,{numeric:true}));if(!S.labs.some(l=>l.id===S.attLab))S.attLab=S.labs[0]?.id||'';render()}));courseSubs.push(db.collection('courses/'+id+'/students').onSnapshot(q=>{S.students=q.docs.map(d=>({_:d.id,...d.data()})).filter(s=>s.active!==false).sort(serialCmp);render()}));if(isCoordinator())courseSubs.push(db.collection('memberships').where('courseId','==',id).onSnapshot(q=>{S.members=q.docs.map(d=>({_:d.id,...d.data()}));render()}));else{const m=currentMembership();S.members=m?[m]:[]}}
-function courseView(){const c=S.course;if(!c)return'<main class=shell><div class=card>Loading course…</div></main>';const tabs=[['attendance','Attendance'],['grades','Grades'],['students','Students'],['instructors','Instructors'],['setup','Course Setup']];return `<div class=coursebar><button class=courseback onclick=goHome() title="Back to courses">←</button><div class=coursetitle><b>${esc(c.code)} · ${esc(c.name)}</b><span>${esc(c.semester)} · Coordinator: ${esc(c.coordinatorName||'')}</span></div><button class=coursemenu onclick=courseMenu() title="Course menu">⋮</button></div><div class=tabs>${tabs.map(([k,n])=>`<button class="${S.tab===k?'on':''}" onclick="S.tab='${k}';detailScrollX=0;render()">${n}</button>`).join('')}</div><main class=shell>${S.tab==='attendance'?attendance():S.tab==='grades'?grades():S.tab==='students'?studentsPage():S.tab==='instructors'?instructorsPage():setupPage()}</main>`}
+function courseView(){const c=S.course;if(!c)return'<main class=shell><div class=card>Loading course…</div></main';const tabs=[['overview','Overview'],['attendance','Attendance'],['grades','Grades'],['students','Students'],['instructors','Instructors'],['setup','Course Setup']];const btn=([k,label])=>`<button class="ct-nav-btn ${S.tab===k?'on':''}" onclick="ctSwitchTab('${k}')" ${S.tab===k?'aria-current="page"':''}><span class=ct-ico>${ctIcon(k)}</span><span>${label}</span></button>`;const content=S.tab==='overview'?ctOverview():S.tab==='attendance'?attendance():S.tab==='grades'?grades():S.tab==='students'?studentsPage():S.tab==='instructors'?instructorsPage():setupPage();return `<div class=workspace><aside class=workspace-side><div class=nav-eyebrow>SELECTED COURSE</div><div class=course-side-meta><div class=code>${esc(c.code)} · ${esc(c.name)}</div><div class=term>${esc(c.semester)}</div></div><div class=nav-eyebrow>WORKSPACE</div><nav class=ct-nav aria-label="Course navigation">${tabs.map(btn).join('')}</nav><div class=ct-sidebar-bottom><button class=ct-nav-btn onclick=goHome()><span class=ct-ico>${ctIcon('folder')}</span><span>All courses</span></button><div class=ct-sidebar-foot><b>COURSETRACK UNIVERSITY</b><div>Attendance · Grading · Course management</div></div></div></aside><div class=workspace-main><div class=coursebar><button class=courseback onclick=goHome() title="Back to courses" aria-label="Back to all courses">←</button><div class=coursetitle><b>${esc(c.code)} · ${esc(c.name)}</b><span>${esc(c.semester)} · Coordinator: ${esc(c.coordinatorName||'')}</span></div><button class=coursemenu onclick=courseMenu() title="Course menu" aria-label="Course menu">⋮</button></div><main class=shell>${content}</main></div><nav class=ct-mobile-nav aria-label="Mobile course navigation">${tabs.map(btn).join('')}</nav></div>`}
 function courseMenu(){$('#modal').innerHTML=`<div class=modal><div class=dialog><h2>${esc(S.course.code)} · ${esc(S.course.name)}</h2><p class=meta>${esc(S.course.semester)}</p><div class=menuitems><button onclick=copyCourseUrl()>Copy course URL</button><button class=secondary onclick=downloadBackup()>Download course backup</button><button class=secondary onclick="$('#modal').innerHTML=''">Close</button></div></div></div>`}
 function copyCourseUrl(){const u=location.origin+location.pathname+'?course='+encodeURIComponent(S.active);if(navigator.clipboard?.writeText)navigator.clipboard.writeText(u).then(()=>alert('Course URL copied.')).catch(()=>prompt('Copy this URL',u));else prompt('Copy this URL',u)}
 function serialCmp(a,b){return (+a.serial||999999)-(+b.serial||999999)||String(a.sid||'').localeCompare(String(b.sid||''),undefined,{numeric:true})}
